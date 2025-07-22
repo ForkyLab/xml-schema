@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    elementFormDefault="qualified"
+    targetNamespace="https://forky-dev.github.io/xml-schema">
+
+    <xs:attribute name="comment-attr-name" type="xs:string">
+        <xs:annotation>
+            <xs:documentation>
+                Upstream attribute name you are hiding.
+            </xs:documentation>
+        </xs:annotation>
+    </xs:attribute>
+
+    <xs:attribute name="comment-attr-value" type="xs:string">
+        <xs:annotation>
+            <xs:documentation>
+                Upstream attribute value you are hiding.
+            </xs:documentation>
+        </xs:annotation>
+    </xs:attribute>
+
+    <xs:attribute name="start-attrs" type="xs:string">
+        <xs:annotation>
+            <xs:documentation>
+                Start of a fork attributes block.
+            </xs:documentation>
+        </xs:annotation>
+    </xs:attribute>
+
+    <xs:attribute name="end-attrs" type="xs:string">
+        <xs:annotation>
+            <xs:documentation>
+                End of a fork attributes block.
+            </xs:documentation>
+        </xs:annotation>
+    </xs:attribute>
+</xs:schema>
