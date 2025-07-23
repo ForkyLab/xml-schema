@@ -35,4 +35,6 @@
             </xs:documentation>
         </xs:annotation>
     </xs:attribute>
+
+    <xs:anyAttribute namespace="##targetNamespace" processContents="lax"/>
 </xs:schema>
