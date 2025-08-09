@@ -1,0 +1,1 @@
+This XSD is a placeholder schema provided only as a formal reference for the XML namespace https://forkylab.github.io/xml-schema. It is not a complete or functional schema. The defined attributes (comment-attr-name, comment-attr-value, start-attrs, end-attrs) exist solely to make the namespace resolvable and usable in xmlns declarations.
